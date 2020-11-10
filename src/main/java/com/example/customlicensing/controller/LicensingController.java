@@ -22,7 +22,7 @@ public class LicensingController {
 
     @PutMapping("/authorize/{productKey}/{serverId}")
     public ResponseEntity<Object> authorize(@PathVariable String productKey, @PathVariable String serverId) {
-        License license = licensingService.validate(getHashOf(productKey), getHashOf(serverId));
+        License license = licensingService.validate(getHashOf(productKey), serverId);
         if (license == null) {
             return new ResponseEntity<>("NOT_FOUND", BAD_REQUEST);
         } else {
