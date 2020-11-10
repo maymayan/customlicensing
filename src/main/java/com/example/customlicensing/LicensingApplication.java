@@ -1,4 +1,4 @@
-package com.example.licensing;
+package com.example.customlicensing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

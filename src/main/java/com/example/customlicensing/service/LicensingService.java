@@ -1,7 +1,7 @@
-package com.example.licensing.service;
+package com.example.customlicensing.service;
 
-import com.example.licensing.model.License;
-import com.example.licensing.model.Limitation;
+import com.example.customlicensing.model.License;
+import com.example.customlicensing.model.Limitation;
 
 public interface LicensingService {
 

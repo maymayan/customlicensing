@@ -1,4 +1,4 @@
-package com.example.licensing.config;
+package com.example.customlicensing.config;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;

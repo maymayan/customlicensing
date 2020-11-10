@@ -1,4 +1,4 @@
-package com.example.licensing.model;
+package com.example.customlicensing.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

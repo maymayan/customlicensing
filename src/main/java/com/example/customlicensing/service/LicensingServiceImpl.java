@@ -1,8 +1,8 @@
-package com.example.licensing.service;
+package com.example.customlicensing.service;
 
-import com.example.licensing.model.License;
-import com.example.licensing.model.Limitation;
-import com.example.licensing.repo.LicensingRepository;
+import com.example.customlicensing.model.License;
+import com.example.customlicensing.model.Limitation;
+import com.example.customlicensing.repo.LicensingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
-import static com.example.licensing.model.LicenseState.*;
+import static com.example.customlicensing.model.LicenseState.*;
 
 @Service
 public class LicensingServiceImpl implements LicensingService {

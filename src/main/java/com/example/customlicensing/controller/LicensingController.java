@@ -1,8 +1,8 @@
-package com.example.licensing.controller;
+package com.example.customlicensing.controller;
 
-import com.example.licensing.model.License;
-import com.example.licensing.model.Limitation;
-import com.example.licensing.service.LicensingService;
+import com.example.customlicensing.model.License;
+import com.example.customlicensing.model.Limitation;
+import com.example.customlicensing.service.LicensingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

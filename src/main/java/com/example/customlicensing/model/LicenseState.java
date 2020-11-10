@@ -1,4 +1,4 @@
-package com.example.licensing.model;
+package com.example.customlicensing.model;
 
 public enum  LicenseState {
     CREATED,

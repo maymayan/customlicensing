@@ -1,4 +1,4 @@
-package com.example.licensing;
+package com.example.customlicensing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
