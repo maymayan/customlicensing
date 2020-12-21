@@ -14,7 +14,7 @@ public class MongoConfig {
     public MongoClient mongo() {
 
 
-        ConnectionString connectionString = new ConnectionString("mongodb+srv://maymayan:licensing.2341@license-cluster.dqhtd.mongodb.net/<dbname>?retryWrites=true&w=majority");
+        ConnectionString connectionString = new ConnectionString("mongodb+srv://{username}:{password}@license-cluster.dqhtd.mongodb.net/<dbname>?retryWrites=true&w=majority");
         MongoClientSettings mongoClientSettings = MongoClientSettings.builder()
                 .applyConnectionString(connectionString)
                 .build();
@@ -23,7 +23,7 @@ public class MongoConfig {
     }
 
     @Bean
-    public MongoTemplate mongoTemplate() throws Exception {
+    public MongoTemplate mongoTemplate() {
         return new MongoTemplate(mongo(), "test");
     }
 
